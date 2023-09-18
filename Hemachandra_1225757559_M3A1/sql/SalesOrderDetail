@@ -1,0 +1,10 @@
+SELECT TOP(20)
+    ProductID,
+    SalesOrderID,
+    SalesOrderDetailID,
+    OrderQty,
+    UnitPrice,
+    LineTotal
+    FROM
+    SalesLT.SalesOrderDetail
+    
